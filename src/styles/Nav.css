@@ -1,8 +1,5 @@
 .logo {
 
-    color: aliceblue;
-}
-.navbar {
-    display: flex;
-    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
 }

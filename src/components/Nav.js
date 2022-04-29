@@ -8,11 +8,15 @@ function Navigation() {
     return (
         <div className="navbar">
 
-            <Navbar fixed="top" variant="dark" className="links">
-                    <div className="logo"><h1>Texas Wide Holdings LLC</h1></div>
-                    <Nav>
-                        <Nav.Link href="/"><h2>Home</h2></Nav.Link>
+            <Navbar fixed="top" bg="black" variant="dark" className="links">
+                    <div className="logo"><h1>&nbsp;Texas Wide Holdings LLC&nbsp;</h1></div>
+                    <Nav >
+                        <Nav.Link href="/" ><h4>Home</h4></Nav.Link>
+                        <Nav.Link href="/"><h4>About Us</h4></Nav.Link>
+                        <Nav.Link href="/"><h4>Projects</h4></Nav.Link>
+                        <Nav.Link href="/" ><h4>Future</h4></Nav.Link>
                     </Nav>
+                    
             </Navbar>
         </div>
     )
