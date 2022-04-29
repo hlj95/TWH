@@ -8,13 +8,13 @@ function Navigation() {
     return (
         <div className="navbar">
 
-            <Navbar fixed="top" bg="black" variant="dark" className="links">
+            <Navbar  variant="dark" className="links">
                     <div className="logo"><h1>&nbsp;Texas Wide Holdings LLC&nbsp;</h1></div>
                     <Nav >
-                        <Nav.Link href="/" ><h4>Home</h4></Nav.Link>
-                        <Nav.Link href="/"><h4>About Us</h4></Nav.Link>
-                        <Nav.Link href="/"><h4>Projects</h4></Nav.Link>
-                        <Nav.Link href="/" ><h4>Future</h4></Nav.Link>
+                        <Nav.Link href="/" ><h4>&nbsp;Home</h4></Nav.Link>
+                        <Nav.Link href="/about"><h4>&nbsp;About Us</h4></Nav.Link>
+                        <Nav.Link href="/"><h4>&nbsp;Projects</h4></Nav.Link>
+                        <Nav.Link href="/" ><h4>&nbsp;Future</h4></Nav.Link>
                     </Nav>
                     
             </Navbar>

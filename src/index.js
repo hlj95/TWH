@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import BaseLayout from './components/BaseLayout';
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutUs from './components/AboutUs';
 
 
 
@@ -16,6 +17,7 @@ root.render(
       <BaseLayout>
         <Routes>
           <Route element={ <Home /> } exact path="/" />
+          <Route element={ <AboutUs /> } path="/about" />
         </Routes>
       </BaseLayout>
     </BrowserRouter>
