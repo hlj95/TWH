@@ -1,6 +1,7 @@
 .picbox {
+    margin:auto;
     width: 45%;
-    margin: auto;
+height: 10%;
 }
 .homebox {
     display: flex;
@@ -11,6 +12,16 @@
     justify-content: center;
     width: 75%;
     margin: auto;
-    margin-top: 15em;
+    margin-top: 5em;
     height: 90%;
+font-family:'Times New Roman', Times, serif;
+border-color: 'white';
+border-width: 1em;
+
+
+}
+
+.homeDiv {
+    border-color: white;
+border-width: 1em;
 }
