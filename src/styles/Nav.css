@@ -3,9 +3,8 @@
     flex-direction: column;
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
-    font-style:italic;
+    font-style:normal;
     font-variant: small-caps;
-    text-decoration: underline;
     text-decoration-color: rgb(255, 255, 255);
 }
 
