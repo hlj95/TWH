@@ -7,8 +7,8 @@ function BaseLayout(props) {
         <div id="layout">
             
             <Navigation />
-
             <div id="children">{props.children}</div>
+            <br />
             <Footer />
         </div>
     )

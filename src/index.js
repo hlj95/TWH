@@ -10,6 +10,8 @@ import AboutUs from './components/AboutUs';
 
 
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -18,6 +20,7 @@ root.render(
         <Routes>
           <Route element={ <Home /> } exact path="/" />
           <Route element={ <AboutUs /> } path="/about" />
+          
         </Routes>
       </BaseLayout>
     </BrowserRouter>

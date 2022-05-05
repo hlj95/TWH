@@ -8,7 +8,7 @@ function Navigation() {
     return (
         <div className="navbar">
 
-            <Navbar  variant="dark" className="links">
+            <Navbar bg="black"  variant="dark" className="links">
                     <div className="logo"><h1>&nbsp;Texas Wide Holdings LLC&nbsp;</h1></div>
                     <Nav >
                         <Nav.Link href="/" ><h4>&nbsp;Home</h4></Nav.Link>

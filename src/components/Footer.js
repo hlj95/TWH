@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
             <br></br>
             <br></br>
-            <h6>Copyright © Texas Wide Holdings LLC 2022</h6>
+            <h6>Copyright © Texas Wide Holdings LLC 2022. All Rights Reserved.</h6>
             <br></br>
             <br></br>
         </div>
