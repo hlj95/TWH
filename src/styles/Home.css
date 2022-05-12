@@ -1,25 +1,11 @@
 .picbox {
-    margin:auto;
-    width: 45%;
-height: 10%;
+    margin:4em;
 }
 .homebox {
     display: flex;
     flex-direction: row;
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(9px);
-    background-color:hsla(0, 0%, 0%, 0.5);
-    justify-content: center;
-    width: 75%;
+
     margin: auto;
-    margin-top: 5em;
     height: 90%;
     font-family:'Times New Roman', Times, serif;
-    border-color: 'white';
-    border-width: 1em;
-}
-
-.homeDiv {
-    border-color: white;
-    border-width: 1em;
 }
