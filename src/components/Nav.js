@@ -13,8 +13,8 @@ function Navigation() {
                     <Nav >
                         <Nav.Link href="/" ><h4>&nbsp;Home</h4></Nav.Link>
                         <Nav.Link href="/about"><h4>&nbsp;About Us</h4></Nav.Link>
-                        <Nav.Link href="/"><h4>&nbsp;Projects</h4></Nav.Link>
-                        <Nav.Link href="/" ><h4>&nbsp;Future&nbsp;</h4></Nav.Link>
+                        <Nav.Link href="/projects"><h4>&nbsp;Projects</h4></Nav.Link>
+                        <Nav.Link href="/future" ><h4>&nbsp;Future&nbsp;</h4></Nav.Link>
                     </Nav>
                     
             </Navbar>

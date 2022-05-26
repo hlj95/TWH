@@ -7,6 +7,8 @@ import BaseLayout from './components/BaseLayout';
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from './components/AboutUs';
+import Projects from './components/Projects';
+import Future from './components/Future';
 
 
 
@@ -20,7 +22,8 @@ root.render(
         <Routes>
           <Route element={ <Home /> } exact path="/" />
           <Route element={ <AboutUs /> } path="/about" />
-          
+          <Route element={ <Projects /> } path="/projects" />
+          <Route element={ <Future /> } path="/future" /> 
         </Routes>
       </BaseLayout>
     </BrowserRouter>
