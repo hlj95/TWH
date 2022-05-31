@@ -1,0 +1,14 @@
+.projectB img {
+    height: 19em;
+    width: 19em;
+    margin-right: 2em;
+
+}
+
+.projectB {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+
+}
+ 
