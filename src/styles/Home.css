@@ -1,10 +1,10 @@
 .picbox {
-    margin:4em;
+    width: 25%;
 }
 .homebox {
     display: flex;
     flex-direction: row;
-
+    padding: 5em;
     margin: auto;
     height: 90%;
     font-family:'Times New Roman', Times, serif;
